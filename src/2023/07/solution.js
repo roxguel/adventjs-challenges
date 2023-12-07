@@ -13,13 +13,11 @@ function drawGift(size, symbol) {
 
     result += i < size ? space.repeat(halfSize - rowDepth) : '';
 
-    for (let j = 0; j < cubeSize; j++) {
-      if (j < rowLength) {
-        const isBorderOrCorner = isEdgeRow
-          || (i === halfSize && j < size)
-          || [0, halfSize, rowLength - 1].includes(j);
-        result += isBorderOrCorner ? edge : symbol;
-      }
+    for (let j = 0; j < rowLength; j++) {
+      const isBorderOrCorner = isEdgeRow
+        || (i === halfSize && j < size)
+        || [0, halfSize, rowLength - 1].includes(j);
+      result += isBorderOrCorner ? edge : symbol;
     }
     result += '\n';
   }
