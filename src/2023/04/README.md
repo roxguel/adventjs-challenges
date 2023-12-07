@@ -5,18 +5,18 @@ In 🎅 Santa's workshop, **some Christmas messages have been written in a pecul
 However, bear in mind that there may be nested parentheses, so you should reverse the characters in the correct order.
 
 ```JavaScript
-    const a = decode('hola (odnum)')
-    console.log(a) // hola mundo
-    
-    const b = decode('(olleh) (dlrow)!')
-    console.log(b) // hello world!
-    
-    const c = decode('sa(u(cla)atn)s')
-    console.log(c) // santaclaus
-    
-    // Step by step:
-    // 1. Reverse the nested -> sa(ualcatn)s
-    // 2. Reverse the remaining one -> santaclaus
+const a = decode('hola (odnum)')
+console.log(a) // hola mundo
+
+const b = decode('(olleh) (dlrow)!')
+console.log(b) // hello world!
+
+const c = decode('sa(u(cla)atn)s')
+console.log(c) // santaclaus
+
+// Step by step:
+// 1. Reverse the nested -> sa(ualcatn)s
+// 2. Reverse the remaining one -> santaclaus
 ```
 
 Notes:

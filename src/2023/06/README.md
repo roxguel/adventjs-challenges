@@ -15,17 +15,17 @@ The elves want to know what the maximum distance the reindeer travels is **after
 Create a `maxDistance` function that takes the text string `movements` and returns **the maximum distance** that the reindeer can travel **in any direction**:
 
 ```JavaScript
-    const movements = '>>*<'
-    const result = maxDistance(movements)
-    console.log(result) // -> 2
-    
-    const movements2 = '<<<>'
-    const result2 = maxDistance(movements2)
-    console.log(result2) // -> 2
-    
-    const movements3 = '>***>'
-    const result3 = maxDistance(movements3)
-    console.log(result3) // -> 5
+const movements = '>>*<'
+const result = maxDistance(movements)
+console.log(result) // -> 2
+
+const movements2 = '<<<>'
+const result2 = maxDistance(movements2)
+console.log(result2) // -> 2
+
+const movements3 = '>***>'
+const result3 = maxDistance(movements3)
+console.log(result3) // -> 5
 ```
 
 Keep in mind that it doesn't matter whether it is to the left or right, the distance is **the absolute value of the maximum distance traveled at the end of the movements**.

@@ -14,24 +14,24 @@ Each unit of time, **the sled moves one position to the right**. If it encounter
 **Create a function that simulates the sled's movement** for a given time and **returns an array** of strings representing the state of the road at each unit of time:
 
 ```JavaScript
-    const road = 'S..|...|..'
-    const time = 10 // units of time
-    const result = cyberReindeer(road, time)
-    
-    /* -> result:
-    [
-      'S..|...|..', // initial state
-      '.S.|...|..', // sled advances on the road
-      '..S|...|..', // sled advances on the road
-      '..S|...|..', // sled stops at the barrier
-      '..S|...|..', // sled stops at the barrier
-      '...S...*..', // barrier opens, sled advances
-      '...*S..*..', // sled advances on the road
-      '...*.S.*..', // sled advances on the road
-      '...*..S*..', // sled advances on the road
-      '...*...S..', // passes through the open barrier
-    ]
-    */
+const road = 'S..|...|..'
+const time = 10 // units of time
+const result = cyberReindeer(road, time)
+
+/* -> result:
+[
+  'S..|...|..', // initial state
+  '.S.|...|..', // sled advances on the road
+  '..S|...|..', // sled advances on the road
+  '..S|...|..', // sled stops at the barrier
+  '..S|...|..', // sled stops at the barrier
+  '...S...*..', // barrier opens, sled advances
+  '...*S..*..', // sled advances on the road
+  '...*.S.*..', // sled advances on the road
+  '...*..S*..', // sled advances on the road
+  '...*...S..', // passes through the open barrier
+]
+*/
 ```
 
 The result is an **array where each element shows the road at each unit of time**.

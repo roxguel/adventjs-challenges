@@ -5,17 +5,17 @@ You have the original sequence of _original_ manufacturing steps and the modifie
 Your task is to **write a function that identifies and returns the first extra step that was added or removed in the manufacturing chain**. If there is no difference between the sequences, return an empty string.
 
 ```JavaScript
-    const original = 'abcd'
-    const modified = 'abcde'
-    findNaughtyStep(original, modified) // 'e'
-    
-    const original = 'stepfor'
-    const modified = 'stepor'
-    findNaughtyStep(original, modified) // 'f'
-    
-    const original = 'abcde'
-    const modified = 'abcde'
-    findNaughtyStep(original, modified) // ''
+const original = 'abcd'
+const modified = 'abcde'
+findNaughtyStep(original, modified) // 'e'
+
+const original = 'stepfor'
+const modified = 'stepor'
+findNaughtyStep(original, modified) // 'f'
+
+const original = 'abcde'
+const modified = 'abcde'
+findNaughtyStep(original, modified) // ''
 ```
 
 Please, keep in mind:

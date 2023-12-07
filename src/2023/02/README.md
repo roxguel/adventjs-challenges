@@ -5,18 +5,18 @@ _Gifts are strings of text_ and _materials are characters_. Your task is to writ
 A gift can be made if we have all the necessary materials to make it.
 
 ```JavaScript
-    const gifts = ['tren', 'oso', 'pelota']
-    const materials = 'tronesa'
-    
-    manufacture(gifts, materials) // ["tren", "oso"]
-    
-    const gifts = ['juego', 'puzzle']
-    const materials = 'jlepuz'
-    
-    manufacture(gifts, materials) // ["puzzle"]
-    
-    const gifts = ['libro', 'ps5']
-    const materials = 'psli'
-    
-    manufacture(gifts, materials) // []
+const gifts = ['tren', 'oso', 'pelota']
+const materials = 'tronesa'
+
+manufacture(gifts, materials) // ["tren", "oso"]
+
+const gifts = ['juego', 'puzzle']
+const materials = 'jlepuz'
+
+manufacture(gifts, materials) // ["puzzle"]
+
+const gifts = ['libro', 'ps5']
+const materials = 'psli'
+
+manufacture(gifts, materials) // []
 ```
