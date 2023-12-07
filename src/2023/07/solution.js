@@ -1,25 +1,27 @@
-export function drawGift(size, symbol) {
-  const sizeAlt = size - 1;
+function drawGift(size, symbol) {
+  const edge = '#';
+  const space = ' ';
   const cubeSize = size * 2 - 1;
-  const cubeSizeAlt = cubeSize - 1;
-  const edge = "#";
-  const space = " ";
+  const halfSize = size - 1;
 
-  let result = "";
+  let result = '';
+
   for (let i = 0; i < cubeSize; i++) {
-    result += "".padStart(sizeAlt - i, space);
-    const relativeSize = Math.min(i, cubeSize - i - 1) + sizeAlt;
+    const isEdgeRow = [0, cubeSize - 1].includes(i);
+    const rowDepth = Math.min(i, cubeSize - i - 1);
+    const rowLength = rowDepth + size;
+
+    result += i < size ? space.repeat(halfSize - rowDepth) : '';
+
     for (let j = 0; j < cubeSize; j++) {
-      const drawEdge = (j < size && [0, cubeSizeAlt, sizeAlt].includes(i))
-        || [0, sizeAlt].includes(j)
-        || j === relativeSize;
-
-      const drawFace = j < relativeSize;
-
-      if (drawEdge) result += edge;
-      else if (drawFace) result += symbol;
+      if (j < rowLength) {
+        const isBorderOrCorner = isEdgeRow
+          || (i === halfSize && j < size)
+          || [0, halfSize, rowLength - 1].includes(j);
+        result += isBorderOrCorner ? edge : symbol;
+      }
     }
-    result += "\n";
+    result += '\n';
   }
 
   return result;
