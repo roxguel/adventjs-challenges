@@ -1,19 +1,18 @@
-/// It does not works, did not pass a secret test :'(
-// function adjustLights(lights) {
-//     let result = 0;
-//     let resultAlt = 0;
-// 
-//     const [even] = lights;
-// 
-//     countLight = (color) => lights.reduce((acc, cur) => acc + (cur === color ? 1 : 0), 0);
-// 
-//     resultAlt = Math.abs(countLight("🔴") - countLight("🟢"));
-// 
-//     for (let i in lights) {
-//         const light = lights[i];
-//         const isEven = i % 2 === 0;
-//         if (isEven && light !== even) result++;
-//         if (!isEven && light === even) result++;
-//     }
-//     return Math.min(result, resultAlt);
-// }
+/// Inspired by @CondeReggi
+function adjustLights(lights) {
+    let green = 0, red = 0;
+    const RED = "🔴", GREEN = "🟢";
+
+    for (let i in lights) {
+        const light = lights[i];
+        const isEven = i % 2 === 0;
+
+        if (light === RED && isEven) red++;
+        else if (light === RED && !isEven) green++;
+
+        if (light === GREEN && isEven) green++;
+        else if (light === GREEN && !isEven) red++;
+    }
+
+    return Math.min(red, green);
+}
