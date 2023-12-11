@@ -12,7 +12,7 @@ The elves have a **special system** for organizing the gifts:
 
 Your task is to write a function `organizeGifts` that takes a string of gifts as an argument and returns a string representing the warehouse.
 
-```
+```JavaScript
 const result1 = organizeGifts('76a11b')
 console.log(result1)
 // `[a]{a}{a}(aaaaaa){b}(b)`
