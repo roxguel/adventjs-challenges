@@ -1,3 +1,6 @@
+Challenge 09
+====
+
 They are turning on the **Christmas lights 🎄** in the city and, as every year, they have to be fixed!
 
 The lights are of two colors: 🔴 and 🟢 . For the effect to be appropriate, **they must always alternate**. That is, if the first light is red, the second must be green, the third red, the fourth green, etc.

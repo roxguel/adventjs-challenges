@@ -1,12 +1,15 @@
+Challenge 08
+====
+
 The elves are very busy in Santa Claus' workshop organizing gifts 🎁 for Christmas Eve 🎄.
 
 The input format is special, as it indicates the number of gifts and the type of gift with letters from `a` to `z`. For example, `'66a11b'` means 66 `a` gifts and 11 `b` gifts.
 
 The elves have a **special system** for organizing the gifts:
 
-*   Every 10 gifts of the same type are packed in a box, represented by `{x}`. For example, 20 type a gifts are packed in two boxes like this: `{a}{a}`.
-*   Every 5 boxes are stacked on a pallet, represented by `[x]`. For example, 10 `a` boxes are stacked on 2 pallets in this way: `[a][a]`
-*   Any additional gift is placed in a bag, represented by `()` and all of them are placed inside. For example, 4 `b` gifts are placed in a bag like this `(bbbb)`
+* Every 10 gifts of the same type are packed in a box, represented by `{x}`. For example, 20 type a gifts are packed in two boxes like this: `{a}{a}`.
+* Every 5 boxes are stacked on a pallet, represented by `[x]`. For example, 10 `a` boxes are stacked on 2 pallets in this way: `[a][a]`
+* Any additional gift is placed in a bag, represented by `()` and all of them are placed inside. For example, 4 `b` gifts are placed in a bag like this `(bbbb)`
 
 **The gifts are then placed in the following order**: _pallets, boxes and bags_. And the gifts appear in the same order as the input string.
 

@@ -1,3 +1,6 @@
+Challenge 02
+====
+
 In Santa's workshop, the elves have a **gift list** they wish to make and a limited set of materials.
 
 _Gifts are strings of text_ and _materials are characters_. Your task is to write a function that, given a list of gifts and the available materials, returns a **list of the gifts that can be made**.

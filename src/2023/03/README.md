@@ -1,3 +1,6 @@
+Challenge 03
+====
+
 In Santa's workshop, **a mischievous elf** has been playing around with the gift production line, adding or removing an unplanned step.
 
 You have the original sequence of _original_ manufacturing steps and the modified _modified_ sequence that may include an extra step or be missing a step.
@@ -20,6 +23,6 @@ findNaughtyStep(original, modified) // ''
 
 Please, keep in mind:
 
-*   There will always be one different step or none.
-*   The modification can occur anywhere in the string.
-*   The _original_ steps could be empty
+* There will always be one different step or none.
+* The modification can occur anywhere in the string.
+* The _original_ steps could be empty

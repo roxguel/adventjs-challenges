@@ -1,9 +1,12 @@
+Challenge 05
+====
+
 Santa 🎅 is testing his new electric sled, the _CyberReindeer_, on a North Pole road. The road is represented by a string of characters, where:
 
-*   `.` = Road
-*   `S` = Santa's Sled
-*   `*` = Open barrier
-*   `|` = Closed barrier
+* `.` = Road
+* `S` = Santa's Sled
+* `*` = Open barrier
+* `|` = Closed barrier
 
 Example of a road: `S...|....|.....`
 

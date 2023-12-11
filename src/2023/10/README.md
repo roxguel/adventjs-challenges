@@ -1,3 +1,6 @@
+Challenge 10
+====
+
 ¡Vaya idea ha tenido _Sam Elfman_! Quiere ofrecer un servicio que te crea un **árbol de Navidad 🎄 personalizado** en cuestión de segundos.
 
 Para crearlo nos pasan una **cadena de caracteres para formar el árbol** y un **número que indica la altura del mismo**.
@@ -23,6 +26,6 @@ Si recibimos la cadena `*@o` y el número `3`, el árbol que debemos devolver es
 
 Nota:
 
-*   El árbol siempre debe estar centrado, para ello añade espacios en blanco a la izquierda de cada línea.
-*   Crea espacios sólo a la izquierda de cada línea del árbol. No dejes espacios en blanco a la derecha.
-*   Los adornos tienen un espacio en blanco entre ellos de separación.
+* El árbol siempre debe estar centrado, para ello añade espacios en blanco a la izquierda de cada línea.
+* Crea espacios sólo a la izquierda de cada línea del árbol. No dejes espacios en blanco a la derecha.
+* Los adornos tienen un espacio en blanco entre ellos de separación.
