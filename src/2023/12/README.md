@@ -30,12 +30,14 @@ checkIsValidCopy('Santa Claus', 's#+:.#c:. s') // false (there is a # where it s
 
 To understand how photocopies work and their degradation, look at this example:
 
-    original:  'Santa Claus'
-    1st copy:  'santa cla#s'
-    2nd copy:  'sa#t# cl#+s'
-    3rd copy:  'sa+## c#+:s'
-    4th copy:  's#++. c+:.s'
-    5th copy:  's#+:. c:. s'
+```text
+original:  'Santa Claus'
+1st copy:  'santa cla#s'
+2nd copy:  'sa#t# cl#+s'
+3rd copy:  'sa+## c#+:s'
+4th copy:  's#++. c+:.s'
+5th copy:  's#+:. c:. s'
+```
 
 Therefore `s#+:. c+:++` is a valid copy of `Santa Claus`. And, as you can see, the degradation of the letters does not occur in a specific order, it is random.
 
