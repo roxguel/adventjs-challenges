@@ -1,0 +1,1 @@
+const [year, challenge] = process.argv.slice(2);
