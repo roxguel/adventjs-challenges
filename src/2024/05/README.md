@@ -1,3 +1,6 @@
+Challenge 05
+====
+
 **Santa Claus's elves 🧝🧝‍♂️** have found a bunch of mismatched magic boots in the workshop. Each boot is described by two values:
 
 * `type` indicates if it's a left boot (I) or a right boot (R).

@@ -1,3 +1,6 @@
+Challenge 07
+====
+
 The **grinch** 👹 has passed through Santa Claus's workshop! And what a mess he has made. He has changed the order of some packages, so shipments cannot be made.
 
 Luckily, the elf _Pheralb_ has detected the pattern the grinch followed to jumble them. **He has written the rules that we must follow to reorder the packages. The instructions are as follows:**

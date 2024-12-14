@@ -1,3 +1,6 @@
+Challenge 03
+====
+
 Santa Claus 🎅 is checking his workshop inventory to prepare gift delivery. The elves have recorded the toys in an _array of objects_, but the information is a bit disorganized. **You need to help Santa organize the inventory.**
 
 You will receive an array of objects, where **each object represents a toy and has the properties**:

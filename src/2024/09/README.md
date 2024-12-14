@@ -1,3 +1,6 @@
+Challenge 09
+====
+
 The elves are playing with a **magical train 🚂 that carries gifts**. This train moves on a board represented by an **array of strings**.
 
 The train consists of an engine (`@`), followed by its carriages (`o`), and must collect magical fruits (`*`) which serve as fuel. The movement of the train follows these rules:

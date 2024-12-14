@@ -1,3 +1,6 @@
+Challenge 06
+====
+
 We have already wrapped hundreds of presents 🎁… but an elf forgot to check if the present, represented by an asterisk `*`, is inside the box.
 
 The box has a present (`*`) and counts as _"inside the box"_ if:

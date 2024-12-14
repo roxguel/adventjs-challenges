@@ -1,5 +1,5 @@
 Challenge 12
-===
+====
 
 You are in a very special market where Christmas trees 🎄 are sold. Each one comes decorated with a series of very peculiar ornaments, and the price of the tree is determined by the ornaments it has.
 

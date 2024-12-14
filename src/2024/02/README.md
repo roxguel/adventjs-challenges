@@ -1,3 +1,6 @@
+Challenge 02
+====
+
 **Santa Claus 🎅** wants to frame the names of the good children to decorate his workshop 🖼️, but the frame must follow specific rules. Your task is to help the elves generate this magical frame.
 
 **Rules:**

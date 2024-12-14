@@ -1,3 +1,6 @@
+Challenge 10
+====
+
 The elf programmers are creating **a small magical assembler** to control the machines in Santa Claus's workshop.
 
 To assist them, we will implement a simple interpreter that supports the following magical instructions:
