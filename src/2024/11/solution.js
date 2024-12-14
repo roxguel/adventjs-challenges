@@ -3,6 +3,9 @@
  * @returns {string} The decoded filename.
  */
 function decodeFilename(filename) {
-    // Code here
-    return ''
+    const startPos = filename.indexOf('_');
+    const endPos = filename.lastIndexOf('.');
+    return filename.substring(startPos + 1, endPos);
 }
+
+export default decodeFilename;
