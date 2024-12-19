@@ -1,4 +1,4 @@
-Challenge 18
+Challenge 18 ★★★★★
 ====
 
 Santa Claus has a magic diary 📇 where he keeps the addresses of the children to deliver the presents. The problem: **the diary's information is mixed and misformatted**. The lines contain a magic phone number, a child's name, and their address, but everything is surrounded by strange characters.
