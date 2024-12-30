@@ -1,4 +1,4 @@
-Challenge 23
+Challenge 23 ★★★★★
 ====
 
 The elves are working on a system to verify children's gift lists 👧👦. However, some lists are incomplete and **numbers are missing**!
